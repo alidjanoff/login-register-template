@@ -1,0 +1,84 @@
+.changeProfileImage {
+  width: 100%;
+  height: 100dvh;
+  padding: 100px 0;
+  background-image: url(https://png.pngtree.com/background/20210716/original/pngtree-abstract-geometric-colorfull-shape-background-picture-image_1406400.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  .container {
+    .row {
+      justify-content: center;
+      align-items: center;
+      .form {
+        width: 30%;
+        background-color: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(4px);
+        padding: 24px;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        .formTitle {
+          color: #fff;
+        }
+        .profileImg {
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            border-radius: 50%;
+          }
+        }
+        label {
+          cursor: pointer;
+          color: #fff;
+          transition: 0.3s ease;
+          &:hover {
+            color: blue;
+          }
+        }
+        input {
+          width: 100%;
+          padding: 8px 4px;
+          outline: 0;
+          border: 0;
+          background-color: transparent;
+          border-bottom: 1px solid #fff;
+          color: #fff;
+          font-size: 18px;
+          display: none;
+        }
+        button {
+          width: 50%;
+          padding: 8px 4px;
+          border: 0;
+          outline: 0;
+          background-color: chocolate;
+          color: #fff;
+          font-size: 18px;
+          font-weight: 500;
+          cursor: pointer;
+          transition: 0.3s ease;
+          &:hover {
+            opacity: 0.8;
+          }
+        }
+        .question {
+          color: #fff;
+          a {
+            color: aqua;
+            &:hover {
+              opacity: 0.8;
+            }
+          }
+        }
+      }
+    }
+  }
+}

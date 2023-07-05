@@ -1,0 +1,16 @@
+// Global states
+@import "./base";
+
+// Components
+@import "./components/header";
+
+// Pages
+@import "./pages/home";
+@import "./pages/login";
+@import "./pages/register";
+@import "./pages/forgot-pass";
+@import "./pages/otp-confirmation";
+@import "./pages/reset-password";
+@import "./pages/profile";
+@import "./pages/change-profile-image";
+@import "./pages/not-found";
